@@ -1,4 +1,12 @@
+<%- include('../header') %>
+
 <form method="POST" action="/categorias/nova">
-    <input placeholder="Insire o nome da categoria" type="text0" name="categoria" />
-    <button>Salvar</button>
+    <div class="form-group">
+        <label for="inputCategoria">Categoria</label>
+        <input name="categoria" type="text" class="form-control" id="inputCategoria" aria-describedby="categoriaHelp" placeholder="Insira o nome da categoria">
+        <small id="categoriaHelp" class="form-text text-muted">Nome da categoria.</small>
+    </div>
+    <button class="btn btn-success">Salvar</button>
 </form>
+
+<%- include('../footer') %>
