@@ -1,2 +1,2 @@
-# como-fazer-fullstack
-como-fazer-fullstack
+# Projeto Fullstack
+Utiliza Node e EJS
